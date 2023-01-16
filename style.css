@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1500px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+}
+.container {
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.d-f  {
+    display: flex;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.black-btn {
+    width: 115px;
+    background: #1D2130;
+    border: 1px solid #1D2130;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.align-center {
+    align-items: center;
+}
+.header {
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+ 
+.nav-list {
+    list-style-type: none;
+    gap: 40px;
+}
+.nav-list-item a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #525560;
+    text-decoration: none;
+}
+.nav-list-item a:hover {
+    color: #0B0706;
+}
+.black-btn a, .black-btn a:hover {
+    color: #FFFFFF;
+}
+.finsweet-info {
+    background: url("./images/info-bg.png") no-repeat;
+    padding-top: 128px;
+    padding-bottom: 64px;
+}
+.finsweet-info-title {
+    width: 640px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.finsweet-info-link {
+    margin-top: 48px;
+    display: block;
+    width: 154px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D2130;
+    text-decoration: none;
+}
+.finsweet-info-desc {
+    margin-top: 192px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.finsweet-info-desc div:nth-child(1),  .finsweet-info-desc div:nth-child(3) {
+    margin-top: 7px;
+}
