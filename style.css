@@ -93,3 +93,72 @@ body {
 .finsweet-info-desc div:nth-child(1),  .finsweet-info-desc div:nth-child(3) {
     margin-top: 7px;
 }
+.block-title-wrap {
+    gap: 24px;
+}
+.block-title {
+    margin-top: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+}
+.finsweet-help {
+    margin-top: 96px;
+}
+.help-info-title {
+    width: 607px;
+    margin-top: 32px;
+    margin-left: 98px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1D2130;
+}
+.help-info-desc {
+    width: 608px;
+    margin-top: 32px;
+    margin-left: 98px;
+    margin-bottom: 48px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+}
+.help-info-desc p:nth-child(2) {
+    margin-top: 32px;
+} 
+.help-info-btn {
+    display: block;
+    margin-left: 98px;
+    width: 146px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #70C174;
+    border: 1px solid #70C174;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.finsweet-supporters {
+    margin-top: 64px;
+} 
+.supporters-box {
+    margin-top: 32px;
+}
+.section-title-wrap {
+    gap: 24px;
+}
+.section-title {
+    margin-top: 4px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+}
