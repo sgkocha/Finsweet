@@ -425,3 +425,60 @@ body {
     line-height: 160%;
     color: #525560;
 }
+.finsweet-events {
+    margin-top: 96px;
+}
+.finsweet-events-box {
+    margin-top: 48px;
+}
+.events-item {
+    width: 628px;
+    background: #BEF3C0;
+    border: 1px solid #BEF3C0;
+    border-radius: 8px;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 48px;
+}
+.undertitle-wrap {
+    gap: 10px;
+}
+.events-item-date {
+    width: 55px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1D2130;
+}
+.events-item-date span {
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+}
+.events-item-undertitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+}
+.events-item-title {
+    width: 381px;
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #1D2130;
+}
+.finsweet-events .section-title {
+    font-size: 43px;
+    color: #1D2130;
+}
+.undertitle-img {
+    margin-top: -10px;
+}
