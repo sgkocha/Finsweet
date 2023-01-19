@@ -359,3 +359,69 @@ body {
     border: 1px solid #F38FBF;
     border-radius: 4px;
 }
+.finsweet-contribute {
+    margin-top: 96px;
+    padding-top: 93px;
+    padding-bottom: 92px;
+    background: url("./images/contribute-bg.png") no-repeat;
+    text-align: center;
+}
+.finsweet-contribute-title {
+    width: 631px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.finsweet-contribute-actions {
+    margin: 32px auto;
+}
+.finsweet-contribute-actions .join-btn, .finsweet-contribute-actions .donate-btn {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+.finsweet-contribute-actions .join-btn {
+    width: 200px;
+    margin-right: 32px;
+    background: #70C174;
+    border: 1px solid #70C174;
+    color: #FFFFFF;
+}
+.finsweet-contribute-actions .donate-btn {
+    width: 116px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #1D2130;
+ }
+ .finsweet-news {
+    margin-top: 96px;
+}
+.finsweet-news .section-title {
+    font-size: 32px;
+    color: #1D2130;
+}
+.finsweet-news-box {
+    margin-top: 48px;
+}
+.news-item-title {
+    margin-top: 16px;
+    width: 290px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1C1D28;
+}
+.news-item-subtitle {
+    margin-top: 8px;
+    width: 290px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+}
