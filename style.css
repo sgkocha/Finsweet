@@ -7,7 +7,7 @@ body {
     width: 1500px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
 }
 .container {
     margin-left: 110px;
@@ -547,4 +547,110 @@ body {
     text-align: right;
     color: #1D2130;
     cursor: pointer;
+}
+
+/*About.html*/
+
+.finsweet-know {
+    margin-top: 96px;
+}
+.know-info {
+    margin-top: 32px;
+    margin-left: 98px;
+}
+.know-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #1D2130;
+}
+.know-desc {
+    width: 496px;
+    color: #1D2130;
+}
+.know-desc p:nth-child(1) {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+}
+.know-desc p:nth-child(2) {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.7;
+}
+.know-video {
+    margin-top: 96px;
+}
+.details-wrap {
+    margin-top: -160px;
+    background-color: #DDFFDF;
+    padding-top: 320px;
+    padding-bottom: 96px;
+}
+.details-undertitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+}
+.finsweet-details .container {
+   justify-content: space-around;
+}
+.details-title {
+    width: 496px;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #1D2130;
+}
+.details-subtitle {
+    width: 496px;
+    margin-top: 16px;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D2130;
+    opacity: 0.7;
+}
+.details-wrap .finsweet-supporters {
+    margin-top: 96px;
+}
+.finsweet-awards {
+    margin-top: 28px;
+}
+.awards-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #1D2130;
+}
+.awards-box {
+    margin-top: 48px;
+    justify-content: space-around;
+}
+.awards-item {
+    text-align: center;
+    font-weight: 700;
+    line-height: 160%;
+    color: #1D2130;
+}
+.awards-item-year {
+    margin-top: 16px;
+    font-size: 24px;
+}
+.awards-item-title {
+    margin-top: 4px;
+    font-size: 16px;
+}
+.awards-item-location {
+    margin-top: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.6;
 }
