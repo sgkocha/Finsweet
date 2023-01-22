@@ -877,3 +877,30 @@ body {
     width: 100px;
     margin: 16px auto;
 }
+
+.finsweet-working {
+    margin-top: 96px;
+}
+
+.finsweet-working-block {
+    gap: 110px;
+}
+
+.finsweet-working-title {
+    width: 461px;
+    margin-top: 32px;
+    margin-left: 98px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #1D2130;
+}
+
+.finsweet-working-subtitle {
+    width: 594px;
+    margin-top: 34px;
+    margin-left: 98px;
+    font-size: 16px;
+    line-height: 160%;git
+    color: #525560;
+}
