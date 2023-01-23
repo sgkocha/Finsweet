@@ -904,3 +904,86 @@ body {
     line-height: 160%;
     color: #525560;
 }
+.finsweet-environment {
+    margin-top: 96px;
+    padding-top: 96px;
+    padding-bottom: 104px;
+    background: #EFF7F2;
+}
+
+.finsweet-environment-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1D2130;
+}
+
+.finsweet-environment-box {
+   margin-top: 64px;
+   flex-wrap: wrap;
+   row-gap: 48px;
+} 
+
+.finsweet-environment-item {
+    padding-left: 45px;
+}
+
+.finsweet-environment-item:nth-child(1) {
+    background: url("./images/environment/environment1.png") no-repeat;
+}
+
+.finsweet-environment-item:nth-child(2) {
+    background: url("./images/environment/environment2.png") no-repeat;
+}
+
+.finsweet-environment-item:nth-child(3) {
+    background: url("./images/environment/environment3.png") no-repeat;
+}
+
+.finsweet-environment-item:nth-child(4) {
+    background: url("./images/environment/environment4.png") no-repeat;
+}
+
+.finsweet-environment-item:nth-child(5) {
+    background: url("./images/environment/environment5.png") no-repeat;
+}
+
+.finsweet-environment-item:nth-child(6) {
+    background: url("./images/environment/environment6.png") no-repeat;
+}
+
+.environment-item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1D2130;
+}
+
+.environment-item-subtitle {
+    width: 332px;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 160%;
+    color: #525560;
+}
+
+.finsweet-projects-caption {
+    width: 870px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.finsweet-projects-undertitle {
+    width: 240px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D2130;
+}
+
+.finsweet-projects-caption .finsweet-projects-title {
+    width: 715px;
+}
