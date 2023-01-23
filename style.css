@@ -987,3 +987,86 @@ body {
 .finsweet-projects-caption .finsweet-projects-title {
     width: 715px;
 }
+
+/* media.html */
+.lightgreen-bg {
+    background: #EFF7F2;
+}
+
+.finsweet-goal {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.finsweet-goal-info {
+    width: 585px;
+}
+
+.finsweet-goal-title {
+    margin-top: 32px;
+    margin-left: 98px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #1D2130;
+}
+
+.finsweet-goal-subtitle {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    margin-left: 98px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+}
+
+.finsweet-goal-news {
+    padding: 24px 56px 24px 24px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.goal-news-item {
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.goal-news-item:nth-last-child() {
+    margin-bottom: 0;
+}
+
+.goal-news-caption {
+    width: 296px;
+}
+
+.finsweet-news-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #1D2130;
+}
+
+.finsweet-news-subtitle {
+    width: 450px;
+    margin : 16px auto;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #525560;
+}
+
+.goal-news-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1D2130;
+}
+
+.goal-news-subtitle {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+}
