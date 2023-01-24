@@ -24,6 +24,10 @@ body {
     justify-content: space-between;
 }
 
+.off-white-bg {
+    background: #EBF0F9
+}
+
 .black-btn {
     width: 115px;
     background: #1D2130;
@@ -1069,4 +1073,141 @@ body {
     font-size: 16px;
     line-height: 160%;
     color: #525560;
+}
+
+/*contact.html*/
+
+.contact-info {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.contact-info-box {
+    gap: 96px;
+}
+
+.contact-info-title {
+    width: 480.45px;
+    margin-top: 32px;
+    margin-left: 98px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #1D2130;
+}
+
+.contact-info-subtitle {
+    width: 480.45px;
+    margin-top: 16px;
+    margin-left: 98px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D2130;
+    opacity: 0.7;
+}
+
+.details-item {
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+}
+
+.details-item:first-child {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.details-item:first-child div:first-child {
+    margin-right: 32px;
+}
+
+.details-item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: #1D2130;
+}
+
+.details-item-desc {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1D2130;
+}
+
+.contact-info-social {
+    align-items: center;
+    gap: 20px;
+}
+
+.msg-fm {
+    width: 768px;
+    margin: 96px auto;
+
+}
+
+.msg-fm input, .msg-fm textarea {
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D2130;
+}
+
+.msg-fm input {
+    width: 368px;
+    padding-bottom: 4px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+   
+}
+
+.msg-fm input::placeholder {
+    color: #1D2130;
+}
+
+.input-bl {
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.message-bl {
+    margin-bottom: 32px;
+}
+
+.input-bl div:first-child, .message-bl div {
+    margin-bottom: 8px;
+}
+
+.input-bl label {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 160%;
+    color: #1D2130;
+    opacity: 0.6;
+}
+
+.msg-fm textarea {
+    width: 768px;
+    height: 156px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    outline: none;
+}
+
+.msg-fm button {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #70C174;
+    backdrop-filter: blur(40px);
+    border: 1px solid #70C174;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.cl-mg {
+    margin: 0;
 }
