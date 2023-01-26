@@ -333,6 +333,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    text-align: center;
+    text-decoration: none;
     color: #1D2130;
     cursor: pointer;
 }
@@ -1277,7 +1279,6 @@ body {
 
 .donation-contribute-subtitle,
 .donation-use-subtitle {
-
     font-size: 16px;
     line-height: 160%;
     color: #525560;
@@ -1287,7 +1288,6 @@ body {
 .donation-contribute-subtitle p {
     margin-top: 24px;
 }
-
 
 .contribute-overview-title {
     padding-bottom: 4px;
@@ -1312,4 +1312,99 @@ body {
 
 .donation-use-box div:nth-child(3) {
     width: 374px;
+}
+
+/*project.html*/
+
+.finsweet-project-about {
+    margin-top:  96px;
+}
+
+.project-about-content {
+    width: 832px;
+    margin-left: 98px;
+}
+
+
+.project-about-title {
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #1D2130;
+}
+
+.project-about-desc {
+   margin-top: 32px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+}
+
+.project-about-img {
+    margin-top: 32px;
+}
+
+.project-about-list {
+    margin-top: 32px;
+    margin-left: 22px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D2130;
+}
+
+.project-stats {
+    margin-top: 96px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.project-stats .container {
+    margin-left: 238px;
+    margin-right: 238px;
+}
+
+.project-stats-box {
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+
+.project-stats-item {
+  
+    padding-left: 42px;
+}
+
+.project-stats-item:nth-child(1) {
+    background: url("./images/stats1.png") no-repeat;
+}
+
+.project-stats-item:nth-child(2) {
+    background: url("./images/stats2.png") no-repeat;
+}
+
+.project-stats-item:nth-child(3) {
+    background: url("./images/stats3.png") no-repeat;
+}
+
+.project-stats-item:nth-child(4) {
+    background: url("./images/stats4.png") no-repeat;
+}
+
+
+
+
+.stats-item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: #1D2130;
+}
+
+.stats-item-subtitle {
+    width: 436px;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
 }
