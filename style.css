@@ -1391,9 +1391,6 @@ body {
     background: url("./images/stats4.png") no-repeat;
 }
 
-
-
-
 .stats-item-title {
     font-weight: 700;
     font-size: 24px;
@@ -1407,4 +1404,76 @@ body {
     font-size: 16px;
     line-height: 160%;
     color: #525560;
+}
+
+/*blog.html*/
+
+.finsweet-blog-caption {
+    width: 1009px;
+    margin: 96px auto;
+    text-align: center;
+}
+
+.finsweet-blog-date {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D2130;
+}
+
+.finsweet-blog-title {
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #1D2130;
+}
+
+.finsweet-blog-subtitle {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+}
+
+.finsweet-blog-img {
+    margin-top: 48px;
+}
+
+.finsweet-blog-content {
+    width: 1024px;
+    margin: 96px auto ;
+}
+
+.finsweet-blog-content h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1D2130;
+}
+
+.finsweet-blog-desc, .finsweet-blog-content h4 {
+    margin-top: 32px;
+}
+
+.finsweet-blog-desc, .finsweet-blog-list {
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+}
+
+.finsweet-blog-content h4 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #1D2130;
+}
+
+.finsweet-blog-list {
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.less-mg-top {
+    margin-top: 16px;
 }
