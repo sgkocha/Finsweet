@@ -1317,7 +1317,7 @@ body {
 /*project.html*/
 
 .finsweet-project-about {
-    margin-top:  96px;
+    margin-top: 96px;
 }
 
 .project-about-content {
@@ -1335,7 +1335,7 @@ body {
 }
 
 .project-about-desc {
-   margin-top: 32px;
+    margin-top: 32px;
     font-size: 16px;
     line-height: 160%;
     color: #525560;
@@ -1371,7 +1371,7 @@ body {
 }
 
 .project-stats-item {
-  
+
     padding-left: 42px;
 }
 
@@ -1442,7 +1442,7 @@ body {
 
 .finsweet-blog-content {
     width: 1024px;
-    margin: 96px auto ;
+    margin: 96px auto;
 }
 
 .finsweet-blog-content h3 {
@@ -1452,11 +1452,13 @@ body {
     color: #1D2130;
 }
 
-.finsweet-blog-desc, .finsweet-blog-content h4 {
+.finsweet-blog-desc,
+.finsweet-blog-content h4 {
     margin-top: 32px;
 }
 
-.finsweet-blog-desc, .finsweet-blog-list {
+.finsweet-blog-desc,
+.finsweet-blog-list {
     font-size: 16px;
     line-height: 160%;
     color: #525560;
@@ -1476,4 +1478,85 @@ body {
 
 .less-mg-top {
     margin-top: 16px;
+}
+
+/* event.html */
+
+.event-caption {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 23%;
+}
+
+.event-title {
+    width: 768px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #1D2130;
+}
+
+.event-info {
+    margin-top: 48px;
+    gap: 47px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1D2130;
+}
+
+.event-location {
+    background: url("./images/location.png") no-repeat;
+    padding-left: 32px;
+}
+
+.event-date {
+    background: url("./images/date.png") no-repeat;
+    padding-left: 32px;
+}
+
+.event-about {
+    margin-top: 96px;
+    padding-left: 23%;
+}
+
+.event-about-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1D2130;
+}
+
+.event-about-desc,
+.event-about-img {
+    margin-top: 32px;
+}
+
+.event-about-desc {
+    width: 768px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+}
+
+.finsweet-events__center {
+    padding-left: 23%;
+}
+
+.finsweet-events__center .section-title-wrap {
+    width: 782px;
+    align-items: center;
+    gap: 10px;
+}
+
+.finsweet-events__center .section-title {
+    width: 258px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #1D2130;
+}
+
+.finsweet-events__center .events-item {
+    margin-bottom: 20px;
 }
